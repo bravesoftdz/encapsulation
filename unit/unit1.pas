@@ -1,5 +1,5 @@
 unit Unit1;
-
+//farid
 {$mode objfpc}{$H+}
 
 interface
