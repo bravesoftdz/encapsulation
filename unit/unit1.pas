@@ -1,26 +1,21 @@
 unit Unit1;
-//farid
-{$mode objfpc}{$H+}
 
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms,
-  Controls, Graphics, Dialogs, StdCtrls, unit2;
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Unit2;
 
 type
-
-  { TForm1 }
-
   TForm1 = class(TForm)
     Button1: TButton;
     Edit1: TEdit;
     Edit2: TEdit;
     procedure Button1Click(Sender: TObject);
   private
-    { private declarations }
+    { Private declarations }
   public
-    { public declarations }
+    { Public declarations }
   end;
 
 var
@@ -28,9 +23,7 @@ var
 
 implementation
 
-{$R *.lfm}
-
-{ TForm1 }
+{$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
@@ -42,7 +35,4 @@ begin
   MyClass.Free;
 end;
 
-
-
 end.
-

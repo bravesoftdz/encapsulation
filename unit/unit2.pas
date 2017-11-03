@@ -1,5 +1,5 @@
 unit Unit2;
-//farid
+
 interface
 
 type
@@ -14,7 +14,6 @@ private
 public
  property MyField: string read GetMyField write SetMyField;
 end;
-
 
 implementation
 
@@ -31,4 +30,3 @@ begin
 end;
 
 end.
-
